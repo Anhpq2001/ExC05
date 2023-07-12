@@ -58,7 +58,7 @@ public class ProductManage {
 
     // function to add new product
     public void addProduct() {
-        int id = 4;
+        int id = listProduct.length;
         int newLength;
         int length = Validation.checkInt("Enter number of new element: ", 0, Integer.MAX_VALUE);
         Product[] newArray = new Product[length];
